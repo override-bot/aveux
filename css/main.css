@@ -37,6 +37,7 @@ body {
     height: 70vh;
     border: 1px solid lightgray;
     border-radius: 5px;
+    font-size: 36px;
 }
 
 .btn {
