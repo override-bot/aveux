@@ -1,7 +1,7 @@
 .float {
     position: fixed;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     bottom: 60px;
     right: 40px;
     color: white;
@@ -9,7 +9,7 @@
     box-shadow: .4vw .4vw .6vw #d0d0d0, -.4vw -.4vw .6vw #f6f6f6;
     text-align: center;
     background-color: rgb(43, 43, 185);
-    font-size: 50px;
+    font-size: 40px;
     border: 1px solid rgb(43, 43, 185);
 }
 
