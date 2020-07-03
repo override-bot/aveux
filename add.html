@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Story</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <form></form>
+    <script defer src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+
+    <script defer src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+    <script defer src="javascript/init-firebase.js"></script>
+    <script src="javascript/main.js"></script>
+    <header>
+
+        <p class="header">AVEUX</p>
+    </header><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div style="text-align: center;">
+        <p style="font-size: 24px; color:rgb(43, 43, 185); ">Write Your Own Story</p>
+        <textarea id="story" class="textarea" placeholder="Add New Story Here..."></textarea><br/><br/>
+        <button onclick="AddStory()" class="btn">Add</button>
+    </div>
+</body>
+
+</html>

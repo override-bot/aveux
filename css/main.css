@@ -1,0 +1,91 @@
+.float {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 60px;
+    right: 40px;
+    color: white;
+    border-radius: 50%;
+    box-shadow: .4vw .4vw .6vw #d0d0d0, -.4vw -.4vw .6vw #f6f6f6;
+    text-align: center;
+    background-color: rgb(43, 43, 185);
+    font-size: 50px;
+    border: 1px solid rgb(43, 43, 185);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-container {
+    box-shadow: .4vw .4vw .6vw #d0d0d0, -.4vw -.4vw .6vw #f6f6f6;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url('../assets/undraw_into_the_night_vumi.png');
+}
+
+.textarea {
+    width: 95%;
+    height: 70vh;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(43, 43, 185);
+    border-radius: 10px;
+    border: 1px solid rgb(43, 43, 185);
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.textarea:focus {
+    border: 1px solid rgb(43, 43, 185);
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(../assets/524-5246388_anonymous-user-hd-png-download.png);
+    background-size: 100% 100%;
+}
+
+.anon {
+    font-size: 27px;
+    color: rgb(43, 43, 185);
+    font-weight: bold;
+}
+
+.time {
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(43, 43, 185);
+}
+
+.header {
+    text-align: center;
+    font-size: 48px;
+    color: rgb(43, 43, 185);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    height: 150px;
+    background-color: white;
+    width: 100%;
+    box-shadow: .4vw .4vw .6vw #d0d0d0, -.4vw -.4vw .6vw #f6f6f6;
+    position: fixed;
+}
