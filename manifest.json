@@ -3,7 +3,7 @@
     "description": "confess anonymously",
     "display": "fullscreen",
     "icons": [{
-        "src": "../assets/524-5246388_anonymous-user-hd-png-download.png",
+        "src": "assets/524-5246388_anonymous-user-hd-png-download.png",
         "sizes": "192x192",
         "type": "image/png"
     }],
