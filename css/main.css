@@ -23,6 +23,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 97%;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .circle {
@@ -106,6 +107,7 @@ header {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         width: 70%;
         margin: 0 auto;
+        padding: 20px;
     }
     .image {
         width: 40px;
