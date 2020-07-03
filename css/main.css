@@ -90,3 +90,9 @@ header {
     box-shadow: .4vw .4vw .6vw #d0d0d0, -.4vw -.4vw .6vw #f6f6f6;
     position: fixed;
 }
+
+@media screen and (min-width: 1224px) {
+    body {
+        display: none;
+    }
+}
