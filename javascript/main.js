@@ -27,16 +27,17 @@ function ReadStory() {
             container.appendChild(image);
             var anon = document.createElement('p');
             anon.className = 'anon';
-            anon.innerHTML = "-Anonymous"
+            anon.innerHTML = "Anonymous"
             container.appendChild(anon);
-            var time = document.createElement('p');
-            time.className = 'time';
-            time.innerHTML = "posted on" + " " + doc.data().date;
-            container.appendChild(time);
+
             var story = document.createElement('p');
             story.className = 'story';
             story.innerHTML = doc.data().first;
             container.appendChild(story);
+            var time = document.createElement('p');
+            time.className = 'time';
+            time.innerHTML = "posted on" + " " + doc.data().date;
+            container.appendChild(time);
             larger.append(container);
         });
     });

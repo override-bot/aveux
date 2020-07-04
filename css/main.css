@@ -8,22 +8,27 @@
     border-radius: 50%;
     box-shadow: .4vw .4vw .6vw #d0d0d0, -.4vw -.4vw .6vw #f6f6f6;
     text-align: center;
-    background-color: rgb(43, 43, 185);
+    background-color: rgb(250, 25, 25);
     font-size: 40px;
-    border: 1px solid rgb(43, 43, 185);
+    border: 1px solid rgb(250, 25, 25);
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f4f4;
 }
 
 .text-container {
     box-shadow: .4vw .4vw .6vw #d0d0d0, -.4vw -.4vw .6vw #f6f6f6;
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 97%;
+    width: 90%;
     margin: 0 auto;
     padding: 20px;
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    color: rgb(29, 29, 29);
 }
 
 .circle {
@@ -44,53 +49,59 @@ body {
 .btn {
     width: 250px;
     height: 50px;
-    background-color: rgb(43, 43, 185);
+    background-color: rgb(250, 25, 25);
     border-radius: 10px;
-    border: 1px solid rgb(43, 43, 185);
+    border: 1px solid rgb(250, 25, 25);
     color: white;
     font-size: 32px;
     font-weight: bold;
 }
 
 .textarea:focus {
-    border: 1px solid rgb(43, 43, 185);
+    border: 1px solid rgb(250, 25, 25);
 }
 
 .image {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-image: url(../assets/524-5246388_anonymous-user-hd-png-download.png);
+    background-image: url(../assets/pf-icon4-jir2064-por-l.jpg);
     background-size: 100% 100%;
 }
 
 .anon {
-    font-size: 27px;
-    color: rgb(43, 43, 185);
+    font-size: 24px;
+    color: rgb(250, 25, 25);
     font-weight: bold;
 }
 
+.p {
+    font-size: 38px;
+    color: gray;
+    text-align: center;
+}
+
 .time {
-    font-size: 12px;
-    font-style: italic;
-    color: rgb(43, 43, 185);
+    font-size: 15px;
+    color: rgb(54, 54, 54);
 }
 
 .header {
     text-align: center;
     font-size: 48px;
-    color: rgb(43, 43, 185);
+    color: rgb(250, 25, 25);
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
 
 header {
-    height: 150px;
+    height: fit-content;
     background-color: white;
     width: 100%;
     box-shadow: .4vw .4vw .6vw #d0d0d0, -.4vw -.4vw .6vw #f6f6f6;
     position: fixed;
     top: 0;
+    line-height: 16px;
 }
 
 @media screen and (min-width: 1224px) {
@@ -108,21 +119,20 @@ header {
         width: 70%;
         margin: 0 auto;
         padding: 20px;
+        margin-bottom: 25px;
     }
     .image {
         width: 40px;
         height: 40px;
         border-radius: 50%;
-        background-image: url(../assets/524-5246388_anonymous-user-hd-png-download.png);
         background-size: 100% 100%;
     }
     .anon {
         font-size: 17px;
-        color: rgb(43, 43, 185);
+        color: rgb(250, 25, 25);
         font-weight: bold;
     }
     header {
-        height: 100px;
         background-color: white;
         width: 100%;
         box-shadow: .4vw .4vw .6vw #d0d0d0, -.4vw -.4vw .6vw #f6f6f6;
@@ -132,8 +142,11 @@ header {
     .header {
         text-align: center;
         font-size: 35px;
-        color: rgb(43, 43, 185);
+        color: rgb(250, 25, 25);
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
+    }
+    .p {
+        font-size: 25px;
     }
 }
