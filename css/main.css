@@ -152,3 +152,15 @@ header {
         font-size: 25px;
     }
 }
+
+.refresh {
+    position: absolute;
+    right: 25px;
+    top: 45px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: .4vw .4vw .6vw #d0d0d0, -.4vw -.4vw .6vw #f6f6f6;
+    background-color: white;
+    border: 1px solid white;
+}
